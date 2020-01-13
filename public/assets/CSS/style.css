@@ -1,0 +1,49 @@
+.page-title {
+  text-align: center;
+  font-family: "Fugaz One", cursive;
+  color: orange;
+}
+
+.panel-title {
+  font-size: 20px;
+}
+
+.backSplashindex {
+  background-color:#D7EAED;
+}
+
+/* .title {
+  text-align: center;
+  font-family: "Fugaz One", cursive;
+} */
+
+.jumbotron {
+  text-align: center;
+  margin-left: 430px;
+  margin-right: 430px;
+
+  background-color: #9cc6cd;
+}
+
+/* tried this to move the PW and User name input to center but this is not working also tried text align center also not working
+.username .password {
+ margin-left: 120px;
+}
+*/
+
+.loginInfo {
+  font-family: "Fugaz One", cursive;
+  color: black;
+  font-weight: bolder;
+  font-size: large;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
